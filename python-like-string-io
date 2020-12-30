@@ -1,0 +1,32 @@
+import java.util.*;
+
+// creating a python like interface for Java i/o
+// the class isolates the user from things like System.in and System.out
+
+public class python-like-string-io
+{
+    // function to take a string input
+    static String input(String prompt)
+    {
+        String returned;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print(prompt);
+        returned = sc.nextLine();
+        return(returned);
+    }
+    
+    // function to print a string
+    static void print(String a)
+    {
+        System.out.println(a);
+    }
+    
+    // driver code
+	  public static void main(String[] args) 
+	  {
+		System.out.println("Hello World");
+		String a = input("Please enter a string: ");
+		print(a);
+	  }
+}
