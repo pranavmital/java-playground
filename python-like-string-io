@@ -23,10 +23,10 @@ public class python-like-string-io
     }
     
     // driver code
-	  public static void main(String[] args) 
-	  {
-		System.out.println("Hello World");
-		String a = input("Please enter a string: ");
-		print(a);
-	  }
+    public static void main(String[] args) 
+    {
+    System.out.println("Hello World");
+    String a = input("Please enter a string: ");
+    print(a);
+    }
 }
